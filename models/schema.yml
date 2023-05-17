@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbt_mpachangane
+    description: ""
+    database: my_db
+    schema: dbt_mpachangane
+    
+    tables: 
+      - name: organization
